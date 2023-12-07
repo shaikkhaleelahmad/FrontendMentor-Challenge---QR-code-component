@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Outfit&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    height: 65%;
+    width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5rem;  
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 4%;
+    padding: 5%;
+}
+.qr{
+    height: 60%;
+    width: 100%;
+    border-radius: 1rem;
+    background-image: url(./images/image-qr-code.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    font-weight: 700;
+    font-size: 1.7rem;
+    /* padding: 0 10%; */
+}
+.text{
+    font-size: 18px;
+    text-align: center;
+    padding: 0 5%;
+    opacity: 0.6;
+
+}
